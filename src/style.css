@@ -28,18 +28,6 @@ font-size: 40px;
 font-weight: light;
 margin-bottom: 60px;}
 
-h3 {
-  color: var(--highlight-color);
-text-align: left;
-margin-left: 80px;;}
-
-ul {list-style-type:circle;
-text-align: left;
-margin-left: 60px;}
-
-li {font-size: 17px;
-font-family: var(--basic-font);}
-
 p {
 font-size: 30px;
 margin-bottom: 0;}
@@ -107,10 +95,31 @@ line-height: 1;}
   font-size: 17px;}
 
 
+
+h3 {
+  color: var(--highlight-color);
+text-align: left;
+margin-left: 80px;;}
+
+ul {list-style-type:circle;
+text-align: left;
+margin-left: 60px;}
+
+li {font-size: 17px;
+font-family: var(--basic-font);}
+
+
 .contact-page-info a {color: var(--main-color);}
 .contact-page-info a:hover {color: var(--accent-color);}
+.open{
+  text-align: center;
+  font-size: 16px;
+  color: var(--main-color)
 
-
+}
+a{
+  color: #f3cd23;
+}
 
 @media(max-width: 768px) {
   .navbar-brand {font-size: medium;}
