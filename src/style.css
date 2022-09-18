@@ -1,0 +1,138 @@
+:root {
+  --background-color: #3b3b3b;
+  --second-background-color: #4e4e4e;
+  --main-color: #e4e4e4f1;
+  --accent-color: #eecb2e;
+  --highlight-color: #f1e31e;
+  --box-shadow: 2px 2px 4px rgba(161, 161, 161, 0.92);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 100px;
+  background-color: #242325;
+  color: var(--main-color);
+  max-width: 100%;}
+.content {
+    padding-bottom: 90px;
+  }
+h1 {
+font-size: 96px;
+color: var(--highlight-color);
+line-height: 1,8;
+margin-top: 0;
+text-shadow: 2px 2px 2px rgb(24, 24, 24), 2px 2px 2px rgb(24, 24, 24);}
+
+h2 {
+font-size: 40px;
+font-weight: light;
+margin-bottom: 60px;}
+
+p {
+font-size: 30px;
+margin-bottom: 0;}
+
+.btn-branding {
+color: var(--background-color);
+background-color: var(--main-color);
+box-shadow: var(--box-shadow);
+padding: 15px 23px;
+margin: 15px 20px;
+font-size: 22px;
+font-family: var(--basic-font);}
+
+.navbar-brand {
+  padding-left: 20px;
+  color: #eecb2e;
+}
+.navbar {border-bottom: 1px solid var(--main-color);}
+
+
+.container {
+background: var(--second-background-color);
+max-width: 100%;
+color: var(--main-color);}
+
+.container h2 {
+color: var(--highlight-color);
+font-weight: 700;
+text-shadow: 2px 2px 2px rgb(46, 46, 46), 2px 2px 2px rgb(46, 46, 46);
+line-height: 2;}
+
+.container .row {line-height: 1,5;
+padding: 30px 100px;}
+
+.container p {font-size: 20px;}
+
+
+footer {
+background-color: var(--background-color);
+padding: 10px 15px;
+font-size: 17px;
+}
+     
+
+.contact-links {
+display: flex;
+justify-content: center;
+}
+
+i {color: var(--highlight-color);
+padding: 20px;
+transition: all 100ms ease-in-out;}
+
+i:hover {color: var(--accent-color);}
+
+
+#contact-button {display: block;
+margin: 0 auto;
+margin-top: 20px;
+line-height: 1;}
+
+
+.about-me {max-width: 100%;}
+.about-me p {font-family: var(--basic-font);
+  font-size: 17px;}
+
+
+.contact-page-info a {color: var(--main-color);}
+.contact-page-info a:hover {color: var(--accent-color);}
+
+
+
+@media(max-width: 768px) {
+  .navbar-brand {font-size: medium;}
+
+  .hero {padding: 40px 100px;}
+
+  h1 {font-size: 40px;
+  line-height: 1;}
+  
+  #my-name {text-align: start;}
+
+  h2, p, h3 {font-size: 18px;}
+
+  
+
+  li {font-size: 14px;}
+
+  .container h2 {font-size: 18px;
+  text-align: center;}
+
+  .container p {font-size: 15px;
+  text-align: center;}
+
+  .btn-branding {font-size: 13px;
+  display: block;
+  margin: 0 auto;}
+
+  #projects img {display: none;}
+
+  input {margin-top: 20px;}
+
+  .about-me h1 {text-align: center;}
+  
+.contact-header {padding-top: 60px;
+padding-bottom: 145px;}
+
+}
